@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>입력태그</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<body>
+    <!-- form action="전송위치(목적지)" method="전송방식" -->
+    <!-- action="." 자기자신 아무것도 없으면 자기자신을 의미-->
+    <!-- method = "get" 주소에 데이터를 입력해서 전달 -->
+    <!-- method = "post" 주소 변경없이 비밀스럽게 데이터 전달-->
+    <form method="get">
+        <!-- <input type="text" name="search"> --> <!-- text box -->
+        <!-- <input type="submit"> --> <!-- submit => form테그 안에 있는 값들을 처리해줌 -->
+
+        <!-- 입력 테그 -->
+        <input type="text" name="search" value="텍스트"><br> <!-- text=> textBox / name=> x:name value=> "text" -->
+        <input type="password" name="pwd" value="12345"><br> <!-- passwordBox -->
+        <input type="checkbox" name="strawberry">딸기&nbsp;&nbsp;&nbsp; <!-- &nbsp; => space-->
+        <input type="checkbox" name="strawberry">바나나<br>
+        <input type="radio" name="gender" value="male">남성 <!-- radio name은 똑같이 value를 다르게-->
+        <input type="radio" name="gender" value="female">여성<br>
+        <input type="file" name="photo"><br>
+        <input type="image" src=""><br> <!-- 잘 사용하지 않음 -->
+        <input type="color" calue=""><br> <!-- 색상 어쩌구 -->
+        <input type="date" value="1997-03-24"><br> <!-- 날짜 -->
+        <input type="month" value="2023-05"><br> <!-- 월까지만 나오는 달력-->
+        <input type="email" value="w12345678992@gmail.com"><br>
+        <select name="간식"> <!-- comboBox --> <!-- combobox는 input이 아님-->
+            <option>--선택--</option>
+            <option>김밥</option>
+            <option>떡볶이</option>
+            <option>순대</option>
+            <option>어묵</option>
+        </select><br>
+        <!-- 히든태그 화면상에는 나오지 않음-->
+        <textarea name="content" rows="10"></textarea>
+        <input type="hidden" name="userid" value="TED7899"><br><!-- 페이지 상에는 숨겨놓고 필요할때는 사용하는 것-->
+        <input type="submit" value="승인">
+        <input type="button" value="버튼">
+        <input type="reset" value="초기화">
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<style>
+    #wrap{
+        display :grid; /* Grid layout을 사용하겠다.*/
+        grid-template-columns: repeat(3,1fr); /* repeat => (열,배율) */ /* fr(배율) 1* */
+        /* grid-template-columns: 1fr 1fr 1fr */
+        grid-template-rows: 1fr 2fr; /* 1* 2* */
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+    .item
+    {
+        padding:10px;
+        background-color: antiquewhite;
+    }
+    .item:nth-child(2n+1)
+    {
+        background-color: darkgray;
+    }
+</style>
+<body>
+    <div id="wrap">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus.</div>
+    </div>
+</body>
+</html>

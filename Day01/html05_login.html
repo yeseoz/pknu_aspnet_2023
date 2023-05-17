@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>로그인</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<!-- div는 블록 형식으로 공간 분할 span은 인라인 형식으로 공간 분할 span은 잘 안씀  -->
+<body>
+    <form>
+        <fieldset> <!-- <form> 요소에서 연관된 요소들을 하나의 그룹으로 묶을 때 사용 -->
+            <legend>로그인</legend> <!-- <fieldset> 요소의 캡션(caption)을 정의 -->
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" name="userid"></td>
+                </tr>
+                <tr>
+                    <td>패스워드</td>
+                    <td><input type="password" name="userpwd"></td>
+                </tr>
+            </table>
+            <input type="submit" value="로그인">
+        </fieldset>
+    </form>
+</body>
+</html>

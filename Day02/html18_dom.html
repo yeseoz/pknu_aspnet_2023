@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <script>
+        window.onload = function() // 온로드에다가 전체 이벤트를 넣어서 실행하게 함 => 잘 안씁니다.
+        {
+            var button = document.querySelector("input"); //제공한 선택자 또는 선택자 뭉치와 일치하는 문서 내 첫 번째 Element를 반환 일치하는 요소 없으면 null
+            button.onclick = function(ev)
+            {
+                alert('click!!');
+            }
+
+            alert(event);
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="클릭">
+    <!-- <input type="button" value="클릭" onclick="alert('click!!');"> -->
+</body>
+</html>

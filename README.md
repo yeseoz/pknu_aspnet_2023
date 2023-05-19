@@ -25,4 +25,5 @@ ASP.NET 학습 리포지토리
 	- 핀터레스트스타일 페이지 클로닝
 	
 Bootstrap 앨범사이트 클로닝
-<img src="" width="700">
+
+<img src="https://raw.githubusercontent.com/yeseoz/pknu_aspnet_2023/main/image/Bootstrap.gif" width="700">

@@ -27,3 +27,8 @@ ASP.NET 학습 리포지토리
 Bootstrap 앨범사이트 클로닝
 
 <img src="https://raw.githubusercontent.com/yeseoz/pknu_aspnet_2023/main/image/Bootstrap.gif" width="700">
+
+
+Pinterest 스타일 페이지 클로닝
+
+<img src="https://raw.githubusercontent.com/yeseoz/pknu_aspnet_2023/main/image/Pinterest.gif" width="700">

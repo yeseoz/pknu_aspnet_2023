@@ -13,6 +13,7 @@ namespace aspnet01_webapp.Controllers
             _logger = logger;
         }
 
+        // 제일 최초 화면
         public IActionResult Index()
         {
             return View();

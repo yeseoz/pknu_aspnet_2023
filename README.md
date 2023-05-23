@@ -38,3 +38,14 @@ Pinterest 스타일 페이지 클로닝
 - ASP.NET MVC
 	- ASP.NET 기본구조
 	- ASP.NET 프로젝트 시작
+	
+	
+ASP.NET Core MVC 게시판
+
+<>
+
+
+
+## 5일차
+- ASP.NET MVC
+	- 게시판 계속

@@ -6,7 +6,6 @@ namespace Portfolio_Web.Models
     public class RegisterModel
     {
         // 회원가입할 때 데이터 받는 부분
-
         [Required(ErrorMessage = "이메일주소는 필수입니다.")]
         [EmailAddress]
         [DisplayName("이메일주소")]

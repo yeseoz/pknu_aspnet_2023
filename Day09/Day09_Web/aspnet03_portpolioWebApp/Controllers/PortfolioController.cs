@@ -86,9 +86,6 @@ namespace aspnet03_portpolioWebApp.Controllers
                 Debug.Write(ex.Message);
             }
 
-
-            
-
             return resultFileName;
         }
     }

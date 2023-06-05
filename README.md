@@ -96,3 +96,9 @@ ASP.NET Core MVC 게시판
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
 	
+## 13일차
+- ASP.NET RestAPI
+	- WPF 앱 연동
+	
+	
+	
